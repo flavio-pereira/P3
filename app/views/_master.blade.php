@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>@yield('title',"P3 - Flavio Pereira")</title>
+    <title>@yield('title',"P3 - Flavio Pereira - Developers's Best Friend")</title>
     <meta charset='utf-8'>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
