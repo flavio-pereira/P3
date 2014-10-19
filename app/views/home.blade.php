@@ -2,7 +2,7 @@
 
 @section('body')
   <div class='container'>
-    <h1>P3 - Flavio Pereira </h1>
+    <h1>P3 - Flavio Pereira - Developers's Best Friend</h1>
 
     <div class="row">
             <div class="col-md-8">
