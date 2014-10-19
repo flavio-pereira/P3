@@ -21,9 +21,9 @@
 
 	<div class="container">
 		{{ Form::open(array('url' => 'loremipsum', 'method' => 'GET'))}}
-			{{Form::label('numParagraphs', 'Number of Paragrahs to Generate (1-5)')}}
+			{{Form::label('numParagraphs', 'Number of Paragrahs from 1-10:')}}
 			{{Form::number('numParagraphs', $numParagraphs)}}
-			{{Form::submit("Go!")}}
+			{{Form::submit("Submit")}}
 		{{ Form::close()}}
 	</div>
 

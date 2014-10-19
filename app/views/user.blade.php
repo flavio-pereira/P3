@@ -19,19 +19,19 @@
 @section('body')
 	<div class="container">
 		{{ Form::open(array('url' => 'user'))}}
-			{{Form::label('numUsers', 'Number of Users to Generate (1-99)')}}
+			{{Form::label('numUsers', 'Number of Users from 1 to 50:')}}
 			{{Form::number('numUsers', $numUsers)}}
 			<br>
-			{{Form::label('birthDate', 'Include a Birth Date')}}
+			{{Form::label('birthDate', 'Do you want to include a Birth Date?')}}
 			{{Form::checkbox('bdate','1', $bday)}}
 			<br>
-			{{Form::label('location', 'Include an Address')}}
+			{{Form::label('location', 'Do you want to include an Address?')}}
 			{{Form::checkbox('location','1', $location)}}
 			<br>
-			{{Form::label('smallBlurb', 'Include Profile Blurb')}}
+			{{Form::label('smallBlurb', 'Do you want to include a Profile Blurb?')}}
 			{{Form::checkbox('smallprofile','1', $profile)}}
 			<br>
-			{{Form::submit("Go!")}}
+			{{Form::submit("Submit")}}
 		{{ Form::close()}}
 	</div>
 	</div>
