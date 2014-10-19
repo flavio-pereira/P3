@@ -20,7 +20,6 @@
 @section('body')
 
 	<div class="container">
-		{{-- We could use POST here, but we used GET in class so I am using that--}}
 		{{ Form::open(array('url' => 'loremipsum', 'method' => 'GET'))}}
 			{{Form::label('numParagraphs', 'Number of Paragrahs to Generate (1-5)')}}
 			{{Form::number('numParagraphs', $numParagraphs)}}
