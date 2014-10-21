@@ -25,18 +25,20 @@ Route::get('/', function()
 
 // Lorem Ipsum Route 
 
-Route::get('/loremipsum', function()
+Route::any('/loremipsum', function()
  {
 
  		//Variable to get the number of Paragraphs:
 
 	    $numParagraphs = Input::get('numParagraphs');
+
 		$generator = new Badcow\LoremIpsum\Generator();
+		
 		$paragraphs = $generator->getParagraphs($numParagraphs);
 
 		return View::make('loremipsum')
 			->with(array('paragraphs' => $paragraphs, 'numParagraphs' => $numParagraphs));
-	
+
 });
 
 // Random User Route
