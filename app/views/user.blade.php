@@ -19,8 +19,12 @@
 @section('body')
 	<div class="container">
 		{{ Form::open(array('url' => 'user'))}}
-			{{Form::label('numUsers', 'Number of Users from 1 to 50:')}}
-			{{Form::number('numUsers', $numUsers)}}
+			{{Form::label('numUsers', 'Number of Users:')}}
+			{{Form::select('numUsers', array('1' => '1', 
+												  '2' => '2', 
+												  '3' => '3',
+												  '4' => '4',
+												  '5' => '5'))}}
 			<br>
 			{{Form::label('birthDate', 'Do you want to include a Birth Date?')}}
 			{{Form::checkbox('bdate','1', $bday)}}
