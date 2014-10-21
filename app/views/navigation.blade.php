@@ -16,13 +16,13 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="loremipsum">Lorem Ipsum</a>
+                        <a href="/loremipsum">Lorem Ipsum</a>
                     </li>
                     <li>
                         <a href="/user">Random Users</a>
                     </li>
                     <li>
-                        <a href="#">xkdc Password</a>
+                        <a href="/xkcd-password">xkcd Password</a>
                     </li>
                 </ul>
             </div>
