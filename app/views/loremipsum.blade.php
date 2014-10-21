@@ -20,9 +20,14 @@
 @section('body')
 
 	<div class="container">
-		{{ Form::open(array('url' => 'loremipsum', 'method' => 'GET'))}}
-			{{Form::label('numParagraphs', 'Number of Paragrahs from 1-10:')}}
-			{{Form::number('numParagraphs', $numParagraphs)}}
+		{{ Form::open(array('url' => 'loremipsum'))}}
+			{{Form::label('numParagraphs', 'Number of Paragrahs:')}}
+			{{Form::select('numParagraphs', array('1' => '1', 
+												  '2' => '2', 
+												  '3' => '3',
+												  '4' => '4',
+												  '5' => '5'))}}
+
 			{{Form::submit("Submit")}}
 		{{ Form::close()}}
 	</div>
