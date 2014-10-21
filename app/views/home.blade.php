@@ -40,7 +40,7 @@
                 <h2>xkcd Password</h2>
                 <p>Generate a random password, which allows you to choose from one to four words, one number, 
                 one symbol, and all words with the first letter in uppercase. With that, you are going to create a strong password, making it harder to guess even by brute force.</p>
-                <a class="btn btn-default" href="#">Create Password</a>
+                <a class="btn btn-default" href="xkcd-password">Create Password</a>
             </div>
             <!-- /.col-md-4 -->
         </div>
