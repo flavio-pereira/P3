@@ -1,28 +1,33 @@
-## Laravel PHP Framework
+## P3: Laravel Basics  - Flavio Pereira
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+### Goals of this project:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+Create a web application called Developer's Best Friend which includes a Lorem Ipsum Generator and a Random User Generator.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+In building this project I can demonstrate an understanding of the following skills:
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+1. Creating a new Laravel app.
+2. Installing and using Composer packages.
+3. Routing basics.
+4. Views.
+5. Deploying a Laravel app on a live server.
 
-## Official Documentation
+### Github and Live URL:
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+Github link: https://github.com/flavio-pereira/P3
 
-### Contributing To Laravel
+P3 live URL: http://p3.pezao.me
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+### Demo Video:
 
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Video: 
 
 
-http://www.jiraffegroup.com/wp-content/uploads/2012/02/bigstock_Computer_Keyboard_With_Human_H_3695191-900x350.jpg
+### Outside Code:
+
+Bootstrap: http://getbootstrap.com/
+
+Jumbo CSS: http://getbootstrap.com/examples/jumbotron/
+
+Image: http://www.jiraffegroup.com/wp-content/uploads/2012/02/bigstock_Computer_Keyboard_With_Human_H_3695191-900x350.jpg
+
