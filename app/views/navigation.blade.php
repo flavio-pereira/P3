@@ -21,9 +21,6 @@
                     <li>
                         <a href="/user">Random Users</a>
                     </li>
-                    <li>
-                        <a href="/xkcd-password">xkcd Password</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
