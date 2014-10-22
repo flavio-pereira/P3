@@ -58,22 +58,23 @@ Route::any('/user', function()
 	// For loop to to gather the options passed from Form. 
 
 	for ($i=0; $i < $numUsers; $i++) {
-	  $finaluser .= "<pre>".$faker->name."\n";
+
+	  $finaluser .= '<strong>'.$faker->name. '<br />';
 
 	  if (Input::get('bdate')) {
-	  		$finaluser .= $faker->dateTimeThisCentury->format('Y-m-d'). "\n";
+	  		$finaluser .= $faker->dateTimeThisCentury->format('Y-m-d'). '<br />';
 	  		$bday = '1';
 	  }
 		  if (Input::get('location')) {		  
-	  		$finaluser .= $faker->address. "\n";
+	  		$finaluser .= $faker->address. '<br />' ;
 	  		$location = '1';
 	  }
 	  if (Input::get('smallprofile')) {
-	  		$finaluser .= $faker->text;
+	  		$finaluser .= $faker->text. '<br />';
 	  		$profile = '1';
 	  }
 	  
-	  $finaluser .= "</pre>";
+	  $finaluser .= "</strong> <br />";
 
 	}
 
