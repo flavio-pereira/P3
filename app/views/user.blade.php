@@ -6,6 +6,8 @@
 
 
 @section('content')
+	<br />
+	<br />
 	<div class ="container">
      <div class="header">
         <h1> Create Random Users</h1>
@@ -25,19 +27,18 @@
 												  '3' => '3',
 												  '4' => '4',
 												  '5' => '5'))}}
-			<br>
+			<br />
 			{{Form::label('birthDate', 'Do you want to include a Birth Date?')}}
 			{{Form::checkbox('bdate','1', $bday)}}
-			<br>
+			<br />
 			{{Form::label('location', 'Do you want to include an Address?')}}
 			{{Form::checkbox('location','1', $location)}}
-			<br>
+			<br />
 			{{Form::label('smallBlurb', 'Do you want to include a Profile Blurb?')}}
 			{{Form::checkbox('smallprofile','1', $profile)}}
-			<br>
+			<br />
 			{{Form::submit("Submit")}}
 		{{ Form::close()}}
-	</div>
 	</div>
 	
 	<br />
