@@ -13,9 +13,6 @@
   <body>
 
     @include('navigation')
-
-    <br />
-    <br />
     
     @yield('content')
 
