@@ -44,7 +44,7 @@
 
 	<div class="container">
 	
-	{{ $finaluser }}
+	<p> {{ $finaluser }} </p>
 	</div>
 
 @stop
