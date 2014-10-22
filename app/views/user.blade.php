@@ -28,13 +28,13 @@
 												  '4' => '4',
 												  '5' => '5'))}}
 			<br />
-			{{Form::label('birthDate', 'Do you want to include a Birth Date?')}}
+			{{Form::label('bdate', 'Do you want to include a Birth Date?')}}
 			{{Form::checkbox('bdate','1', $bday)}}
 			<br />
 			{{Form::label('location', 'Do you want to include an Address?')}}
 			{{Form::checkbox('location','1', $location)}}
 			<br />
-			{{Form::label('smallBlurb', 'Do you want to include a Profile Blurb?')}}
+			{{Form::label('smallprofile', 'Do you want to include a Profile Blurb?')}}
 			{{Form::checkbox('smallprofile','1', $profile)}}
 			<br />
 			{{Form::submit("Submit")}}
