@@ -34,7 +34,11 @@
 
 	<hr>
 	@foreach ($paragraphs as $paragraphs)
-		<div class="container">{{$paragraphs}}</div>
+		<div class="container">
+		
+		<strong> {{$paragraphs}} </strong>
+
+		</div>
 		<hr>
 	@endforeach
 @stop
