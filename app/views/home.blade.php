@@ -1,6 +1,8 @@
 @extends('_master')
 
 @section('body')
+    <br />
+    <br />
   <div class="container">
     <h1>P3 - Flavio Pereira - Developers's Best Friend</h1>
 
