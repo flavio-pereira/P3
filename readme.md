@@ -20,8 +20,7 @@ P3 live URL: http://p3.pezao.me
 
 ### Demo Video:
 
-Video: 
-
+Video: http://screencast.com/t/Qq583sVR
 
 ### Outside Code:
 
@@ -30,3 +29,7 @@ Bootstrap: http://getbootstrap.com/
 Image: http://www.jiraffegroup.com/wp-content/uploads/2012/02/bigstock_Computer_Keyboard_With_Human_H_3695191-900x350.jpg
 
 Favicon Image: http://blog.utest.com/wp-content/uploads/sites/2/2014/06/Tools_clipart.png
+
+Lorem-Ipsum: https://packagist.org/packages/badcow/lorem-ipsum
+
+Faker: https://packagist.org/packages/fzaninotto/faker
